@@ -8,5 +8,5 @@ def calculateAverage(temp: List[Int]): Double = {
 object Q1 extends App {
   val tempInCelcius = List(10, 10)
   val averageF = calculateAverage(tempInCelcius)
-  println(s"Average Fahrenheit temperature is $averageF")
+  println(s"Average temperature in Fahrenheit is $averageF")
 }
